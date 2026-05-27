@@ -1,0 +1,8 @@
+__pycache__/
+build/
+.antigravitycli/
+logs/
+*.log
+.gradle/
+*.apk
+bin/

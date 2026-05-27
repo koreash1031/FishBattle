@@ -1,0 +1,30 @@
+[tool.briefcase]
+project_name = "FishBattle"
+bundle = "com.fishbattle"
+version = "0.1.0"
+url = "https://github.com/user/fishbattle"
+author = "Developer"
+author_email = "developer@example.com"
+license = "MIT"
+
+[tool.briefcase.app.fishbattle]
+formal_name = "Fish Battle"
+description = "2D Casual Arcade Fishing & Battle Game"
+sources = ["src/fishbattle"]
+requires = [
+    "pygame>=2.5.0"
+]
+
+[tool.briefcase.app.fishbattle.macOS]
+requires = []
+
+[tool.briefcase.app.fishbattle.linux]
+requires = []
+
+[tool.briefcase.app.fishbattle.windows]
+requires = []
+
+[tool.briefcase.app.fishbattle.android]
+requires = [
+    "pygame>=2.5.0"
+]
